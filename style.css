@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(44, 43, 43); color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    background-image: url("pictures/parking1.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 5px;
+    text-align: center;    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+header .logo a{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+section{
+    background-color: beige;
+    padding: 400px;
+}
+
+.information{
+    text-transform: uppercase;
+    color: maroon;
+}
+
+ul{
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin: 0px 20px 0px 20px;
+    
+}
+li a:hover{
+    background-color:black;
+}
+
+footer{
+    background-color: black;
+    padding: 10px 20px;
+}
