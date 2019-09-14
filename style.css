@@ -11,9 +11,12 @@ header{
     background-repeat: no-repeat;
     height: 150px;
     text-align: center;
+    text-shadow: 4px 4px #274965;
     font-family: 'Alfa Slab One', cursive;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
+    padding: 70px 0px 0px 0px;
+
 }
 
 ul{
@@ -38,11 +41,11 @@ li{
 }
 
 li a:hover:not(.active) {
-    background-color: darkblue;
+    background-color: #7b3131;
 }
 
 .active {
-  background-color:red;
+  background-color:#274965;
 }
 
 section{
@@ -57,7 +60,7 @@ section{
 .title{
     color: white;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px red;
+    text-shadow: 4px 4px #274965;
     height: 50px;
     width: 100%;
     font-family: 'Press Start 2P', cursive;
@@ -66,15 +69,50 @@ section{
     margin: auto;
 }
 
+.container{
+    text-align: center;
+}
+
+.price{
+    background-color: #7b3131;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    margin: 10px auto;
+}
+
 .text{
-    background-color: white;
-    color: red;
-    height: 100px;
-    width: 20%;
+    background-color: #7b3131;
+    border-radius: 10px;
+    color: white;
     padding: 20px;
-    margin: auto;
+    margin: 10px auto;
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
-    text-align: left;
+    text-align: center;
+    clear: none;
+}
+p img{
+    float: left;
+}
+
+.carwashcontainer, .carcontainer{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.carwash, .rangerover{
+    border-radius: 20px;
+}
+
+input, textarea, button{
+    display: block;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    padding: 4px;
 }
 
 .images, h4{

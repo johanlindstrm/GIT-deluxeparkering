@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
     <head>
         <title> Deluxe Parkering </title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
 
     </head>
     <body>
-            <header>Deluxe parkering</header>
+            <header>
+                Deluxe parkering
+            </header>
+
             <nav>
                 <ul class="active">
                     <li><a href="index.html">Start</a> </li>
@@ -25,10 +29,21 @@
 
                 <div class="title">    
                         <h1>Boka parkering!</h1>
-                    </div>
-                    <div class="text">
-                        <p>Hej! här kan du enkelt och smidigt boka din parkering! </p>
-                    </div>
+                </div>
+                    
+                <div class="container">
+                        <p class="text"><img src="pictures/parkingsign.png" alt="parking sign" width="150" height="200"> 
+                            Hej! här kan du på ett snabbt, enkelt och smidigt sätt boka din parkering!</p>
+                </div>
+                    
+                <input name="name" type="text" placeholder="Förnamn efternamn"><br><br>
+
+                <input name="date" type="date" placeholder="e-mail" min="2019-01-01" max="2020-07-31"><br><br>
+                <input name="date" type="date" placeholder="search" min="2019-01-01" max="2020-07-31"><br><br>
+                <textarea name="message" placeholder="Your message" rows="4" cols="50"></textarea><br><br>
+                <button type="submit" value="Skicka">Skicka</button>
+
+
         </section>
 
         <footer>© Johan Lindström</footer>
