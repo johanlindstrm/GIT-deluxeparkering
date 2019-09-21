@@ -30,25 +30,43 @@
                 <h1>Boka parkering!</h1>
             </div>
                     
-            <div class="container">
-                <p class="text"> Hej! här kan du på ett snabbt, enkelt och smidigt sätt boka din parkering!<br><br>TIPS! Boka service samtidigt som parkering. </p>
-                    
+            <div class="container">                    
                 <div class="parkingcontainer">
                     <img src="pictures/parkingsign.png" alt="parking sign" width="250" height="300">
                 </div>
             </div>
-                <input type="text" placeholder="Förnamn efternamn"><br><br>
+            <div class="form">
+                Förnamn<input type="text" placeholder="Förnamn"><br> 
+                Efternamn<input type="text" placeholder="Efternamn"><br>
 
-                <input name="text" type="text" placeholder="ABC-123" maxlength="6" ><br><br>
+                Tel:<input name="text" type="tel" placeholder="Mobil" maxlength="10"><br>
 
-                <input name="date" type="date" min="2019-01-01" max="2020-07-31"><br><br>
+                Regnr<input name="text" type="text" placeholder="ABC-123" maxlength="6" ><br>
 
-                <input name="date" type="date" min="2019-01-01" max="2020-07-31"><br><br>
+                Från<input name="date" type="date" min="2019-01-01" max="2020-07-31"><br>
 
-                <textarea name="message" placeholder="Your message" rows="4" cols="50"></textarea><br><br>
+                Till<input name="date" type="date" min="2019-01-01" max="2020-07-31"><br>
+                
+                <select style="width:150px;">
+                        <option value="0">Select car:</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Citroen</option>
+                        <option value="4">Ford</option>
+                        <option value="5">Honda</option>
+                        <option value="6">Jaguar</option>
+                        <option value="7">Land Rover</option>
+                        <option value="8">Mercedes</option>
+                        <option value="9">Mini</option>
+                        <option value="10">Nissan</option>
+                        <option value="11">Toyota</option>
+                        <option value="12">Volvo</option>
+                </select><br><br>                    
+
+                <textarea name="message" placeholder="Your message" rows="4" cols="50"></textarea><br>
 
                 <button type="submit" value="Skicka">Skicka</button>   
-
+            </div>
         </section>
 
         <footer>© 2019 Johan Lindström</footer>

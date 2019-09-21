@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(0deg, rgba(181,145,90,1) 30%, rgba(0,0,139,1) 80%);
+    background: linear-gradient(0deg, beige 30%, rgba(0,0,139,1) 80%);
     background-color: rgb(44, 43, 43); 
     color: white;
     margin: 0;
@@ -82,20 +82,36 @@ section{
     background-color: maroon;
     border-radius: 10px;
     color: white;
-    padding: 10px;
-    display: inline;
+    display: inline-block;
+    padding: 20px;
+    opacity: 0.8;
     margin: 10px auto;
+    font-size: 20px;
 }
 
 .text{
     background-color: maroon;
     border-radius: 10px;
     color: white;
-    padding: 20px;
-    margin: 10px auto;
     display: inline-block;
+    padding: 20px;
+    opacity: 0.8;
+    margin: 10px auto;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    clear: none;
+}
+
+.info{
+    background-color: maroon;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    opacity: 0.8;
+    margin: 10px auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
     clear: none;
 }
 
@@ -105,6 +121,15 @@ input, textarea, button{
     margin: auto;
     text-align: center;
     padding: 4px;
+}
+
+.form{
+    opacity: 0.8;
+    background-color: maroon;
+    border-radius: 10px;
+    margin: auto;
+    height: 600px;
+    width: 500px;
 }
 
 /* IMG */
@@ -130,15 +155,21 @@ input, textarea, button{
 }
 
 .media{
-    font-family: 'Roboto', sans-serif;
+    background-color: maroon;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    opacity: 0.8;
+    padding: 10px;
     font-size: 20px;
     margin: auto;
-    text-align: center;
+    width: 800px;
 }
 
 /* FOOTER*/
 
 footer{
+    background: linear-gradient(0deg, rgba(0,0,139,1) 30%, beige 80%);
     background-color: darkblue;
     padding: 30px;
     font-size: 20px;
